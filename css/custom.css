@@ -23,6 +23,9 @@
     color: black;
     font-family: Lora;
 }
+.section-heading h2 {
+    padding: 8px 0;
+}
 .section-heading h3 {
     font-size: 20px;
     color: #D4AF37;
@@ -37,14 +40,14 @@
     font-size: large;
     font-weight: 600;
 }
-#contactus .section-title {
+#contact .section-title {
     font-size: 20px;
     color: #717171;
 }
-#contactus .section-heading p {
+#contact .section-heading p {
     margin: 2px;
 }
-#contactus .section-subtitle {
+#contact .section-subtitle {
     font-weight: 600;
     margin-top: 10px !important;
     color: #D4AF37;
@@ -61,6 +64,31 @@
 
 /* Responsive Iframe */
 .responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+ 
+
+.section-heading h2:after {
+    background: #d2b356;
+    content: "";
+    display: block;
+    width: 50px;
+    height: 5px;
+    margin-top: 15px;
+}
+
+.image-container {
+    position: relative;
+    padding-top: 100%;
+    /* This creates a 1:1 aspect ratio (adjust as needed) */
+    overflow: hidden;
+}
+
+.image-container img {
     position: absolute;
     top: 0;
     left: 0;
@@ -87,8 +115,12 @@
 
     #services .col-3:nth-child(3) {
         display: none
+    } 
+    .section-heading {
+        padding: 14px 0;
     }
-        
 }
+
+
 
 
