@@ -5,7 +5,7 @@
 
  
 #banner {
-    background: url("../banner-images/banner-1.jpg") no-repeat center top;
+    background: url("../images/banner-images/banner-1.jpg") no-repeat center top;
     background-size: cover;
     font-family: Lora;
 }
